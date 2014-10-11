@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+@section styles{
+    <link href="~/Content/home.css" rel="stylesheet" type="text/css" />
+}
+
+<div class="well" ng-app="homeApp" ng-controller="homeController">
+<h2>Hello {{Name}}</h2>
+</div>
+
+
+@section scripts{
+    <script src="~/Scripts/angular/home.js"></script>
+}

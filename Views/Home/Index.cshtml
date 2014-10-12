@@ -5,11 +5,40 @@
     <link href="~/Content/home.css" rel="stylesheet" type="text/css" />
 }
 
-<div class="well" ng-app="homeApp" ng-controller="homeController">
-<h2>Hello {{Name}}</h2>
+<div ng-app="homeApp" ng-controller="homeController">
+    <div class="well">
+        <h2>Welcome {{person.name}}</h2>
+
+        <form name="myForm" class="well">
+            <div class="row">
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 " ng-repeat="class in style" ng-class="class">*</div>
+            </div>
+            <div class="row">
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 ">
+                    <label for="name">Name? </label>
+                </div>
+                <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 "><input type="text" ng-model="person.name" id="name"/></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 ">
+                    <label for="address">Address? </label>
+                </div>        
+                <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 "><input type="text" ng-model="person.address" id="address"/></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 ">
+                    <label for="city">City? </label>
+                </div>        
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 "><input type="text" ng-model="person.city" id="city"/></div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 ">
+                    <label for="state">State? </label>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 "><select ng-model="person.state" ng-options="state for state in states" id="state"></select></div>
+            </div>
+    
+        </form>
+    </div>
 </div>
-
-
 @section scripts{
     <script src="~/Scripts/angular/home.js"></script>
 }

@@ -3,4 +3,45 @@
 }
 div {
     color:indigo;
+
+}
+input {
+    width: 100%;
+}
+div.one {
+    background-color: red;
+}
+div.two {
+    background-color: gray;
+}
+div.three {
+    background-color: cornsilk;
+}
+div.four {
+    background-color: darkcyan;
+}
+div.five {
+    background-color: mediumslateblue;
+}
+div.six {
+    background-color: olivedrab;
+}
+div.seven {
+    background-color: black;
+    color: cornsilk;
+}
+div.eight {
+    background-color: chocolate;
+}
+div.nine {
+    background-color: chartreuse;
+}
+div.ten {
+    background-color: blueviolet;
+}
+div.eleven {
+    background-color: yellow;
+}
+div.twelve {
+    background-color: fuchsia;
 }

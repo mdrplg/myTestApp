@@ -28,3 +28,6 @@ c:\users\jef\documents\visual studio 2012\Projects\myTestApp\myTestApp\bin\Syste
 c:\users\jef\documents\visual studio 2012\Projects\myTestApp\myTestApp\obj\Debug\myTestApp.csprojResolveAssemblyReference.cache
 c:\users\jef\documents\visual studio 2012\Projects\myTestApp\myTestApp\obj\Debug\myTestApp.dll
 c:\users\jef\documents\visual studio 2012\Projects\myTestApp\myTestApp\obj\Debug\myTestApp.pdb
+C:\Users\jef\documents\visual studio 2012\Projects\myTestApp\myTestApp\bin\StackExchange.Redis.dll
+C:\Users\jef\documents\visual studio 2012\Projects\myTestApp\myTestApp\bin\StackExchange.Redis.pdb
+C:\Users\jef\documents\visual studio 2012\Projects\myTestApp\myTestApp\bin\StackExchange.Redis.xml

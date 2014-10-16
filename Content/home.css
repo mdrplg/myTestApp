@@ -1,5 +1,7 @@
 ﻿body {
-
+    background-color: slategray;
+    font-family: serif;
+    font-size: medium;
 }
 div {
     color:indigo;
@@ -45,3 +47,4 @@ div.eleven {
 div.twelve {
     background-color: fuchsia;
 }
+
